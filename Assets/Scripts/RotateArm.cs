@@ -20,8 +20,8 @@ public class RotateArm : MonoBehaviour
 
    float rotate = 0;
 
-      private void Update()
-      {
+   private void Update()
+   {
       if (rotate == 1)
       {
          Debug.Log("Pressed 1");
